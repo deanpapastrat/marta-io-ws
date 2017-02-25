@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  train_id: MyString
+  direction: MyString
+  line_name: MyString
+  current_station_id: MyString
+  integer: MyString
+  destination_station_id: 1
+  origin_station_id: 1
+  previous_station_id: 1
+  status: MyString
+  time_to_station: 1
+
+two:
+  train_id: MyString
+  direction: MyString
+  line_name: MyString
+  current_station_id: MyString
+  integer: MyString
+  destination_station_id: 1
+  origin_station_id: 1
+  previous_station_id: 1
+  status: MyString
+  time_to_station: 1
