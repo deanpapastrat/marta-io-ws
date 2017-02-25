@@ -24,7 +24,6 @@ ActiveRecord::Schema.define(version: 20170225074618) do
   end
 
   create_table "lines", force: :cascade do |t|
-    t.string   "color"
     t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
