@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 20170225074618) do
     t.string   "longitude"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string   "line_ids"
+    t.integer  "line_ids", array: true
   end
 
   create_table "trains", force: :cascade do |t|
